@@ -11,4 +11,9 @@ python3 image_sub_new.py
 python3 send_script.py
 ```
 ## Yolov5 Object Description
-The yolov5 training code is loaded from [here](https://github.com/ultralytics/yolov5) 
+The yolov5 training code is loaded from [here](https://github.com/ultralytics/yolov5).  
+### Training
+Train the yolov5 model with the following script:
+```
+python3 train.py --img 416 --batch 16 --workers 2 --epochs 120 --data (poker card data path) --weights yolov5s.pt --cache
+```
