@@ -5,5 +5,6 @@ We propose a robotic system "Chinese Poker Self-Playing Robot". Controlled by TM
 One can execute the system by running the following command:
 ```
 python3 image_sub_new.py
+
 python3 send_script.py
 ```
